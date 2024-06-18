@@ -61,6 +61,49 @@ function App() {
           </div>
         </div>
       </div>
+
+      <div className='article'>
+        <h1 className='choose-header'>Latest Articles</h1>
+        <div className='article-body'>
+          <div className='article-card'>
+            <img className='article-img' src="/images/image-currency.jpg" alt="currency" />
+            <div className='article-cardbody'>
+              <p className='auther'>By Claire Robinson</p>
+              <h2 className='article-h2'>Receive money in any currency with no fees</h2>
+              <p className='article-text'>The world is getting smaller and we’re becoming more mobile. So why should you be 
+              forced to only receive money in a single …</p>
+            </div>
+          </div>
+          <div className='article-card'>
+            <img className='article-img' src="/images/image-restaurant.jpg" alt="restaurant" />
+            <div className='article-cardbody'>
+              <p className='auther'>By Wilson Hutton</p>
+              <h2 className='article-h2'>Treat yourself without worrying about money</h2>
+              <p className='article-text'>Our simple budgeting feature allows you to separate out your spending and set 
+              realistic limits each month. That means you …</p>
+            </div>
+          </div>
+          <div className='article-card'>
+            <img className='article-img' src="/images/image-plane.jpg" alt="plane" />
+            <div className='article-cardbody'>
+              <p className='auther'>By Wilson Hutton</p>
+              <h2 className='article-h2'>Take your Easybank card wherever you go</h2>
+              <p className='article-text'>We want you to enjoy your travels. This is why we don’t charge any fees on purchases 
+              while you’re abroad. We’ll even show you …</p>
+            </div>
+          </div>
+          <div className='article-card'>
+            <img className='article-img' src="/images/image-confetti.jpg" alt="confetti" />
+            <div className='article-cardbody'>
+              <p className='auther'>By Claire Robinson</p>
+              <h2 className='article-h2'>Our invite-only Beta accounts are now live!</h2>
+              <p className='article-text'>After a lot of hard work by the whole team, we’re excited to launch our closed beta. 
+              It’s easy to request an invite through the site ...</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
     </main>
   )
 }

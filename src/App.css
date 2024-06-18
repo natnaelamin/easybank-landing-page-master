@@ -120,3 +120,46 @@ line-height: 1.75rem;
 line-height: 1.75rem;
 }
 
+.article{
+  display: grid;
+  row-gap: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.article-body{
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.article-img{
+  width: 250px;
+  border-radius: 0.375rem;
+}
+
+.article-cardbody{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.auther{
+  color: rgb(148 163 184);
+  font-size: 0.75rem; /* 12px */
+  line-height: 1rem;
+}
+
+.article-h2{
+  color: rgb(71 85 105);
+  font-size: 1.125rem; /* 18px */
+line-height: 1.75rem;
+}
+
+.article-text{
+  color: rgb(148 163 184);
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; 
+}
+
