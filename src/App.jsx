@@ -104,6 +104,36 @@ function App() {
         </div>
         
       </div>
+      <footer className="footer">
+        <div className='footer-icons'>
+          <img className='footer-img' src="/images/easybanklogo.png" alt="logo" />
+          <div className='icons'>
+            <img className='iconimage' src="/images/icon-facebook.svg" alt="fb" />
+            <img className='iconimage' src="/images/icon-youtube.svg" alt="yt" />
+            <img className='iconimage' src="/images/icon-twitter.svg" alt="tweeter" />
+            <img className='iconimage' src="/images/icon-pinterest.svg" alt="pinterest" />
+            <img className='iconimage' src="/images/icon-instagram.svg" alt="ig" />
+          </div>
+        </div>
+        <div className='info'>
+          <div>
+            <h4>About Us</h4>
+            <h4>Contact</h4>
+            <h4>Blog</h4>
+          </div>
+          <div>
+            <h4>Careers</h4>
+            <h4>Support</h4>
+            <h4>Privacy Policy</h4>
+          </div>
+        </div>
+        <div className='footer-license'>
+          <div className='stub-btn'>
+            <button className='unversal-btn'>Request invite</button>
+          </div>
+          <h5 className='license'>© Easybank. All Rights Reserved</h5>
+        </div>
+      </footer>
     </main>
   )
 }
