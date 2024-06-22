@@ -25,7 +25,7 @@
   line-height: 1.5rem;
 }
 
-.unversal-btn{
+.universal-btn{
   border-radius: 9999px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -36,6 +36,10 @@
   border: none;  
   font-size: 1rem; /* 16px */
   line-height: 1.5rem;
+}
+
+.universal-btn:hover{
+  background-image: linear-gradient(to right, rgb(89, 216, 89), rgb(134, 176, 240)) ;
 }
 
 .header-left{
@@ -82,8 +86,6 @@ line-height: 1;
   padding-right: 100px;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-top: -20px;
-  overflow: auto;
 }
 
 .choose-top{
@@ -161,6 +163,10 @@ line-height: 1.75rem;
 line-height: 1.75rem;
 }
 
+.article-h2:hover{
+  color: rgb(56 189 248);
+}
+
 .article-text{
   color: rgb(148 163 184);
   font-size: 1rem; /* 16px */
@@ -202,6 +208,10 @@ height: 20px;
   justify-content: space-between;
   color: rgb(148 163 184);
 
+}
+
+.solo:hover{
+  color: rgb(56 189 248);
 }
 
 .footer-license{

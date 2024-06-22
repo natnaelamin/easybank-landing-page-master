@@ -14,14 +14,14 @@ function App() {
           <button className='link-btn'>Blog</button>
           <button className='link-btn'>Careers</button>
         </div>
-        <button className='unversal-btn'>Request invite</button>
+        <button className='universal-btn'>Request invite</button>
       </nav>
       <div className='header-left'>
         <div className='intro'>
           <h1 className='intro-header'>Next generation digital banking</h1>
           <p className='intro-text'>Take your financial life online. Your Easybank account will be a one-stop-shop 
           for spending, saving, budgeting, investing, and much more.</p>
-          <button className='unversal-btn'>Request invite</button>
+          <button className='universal-btn'>Request invite</button>
         </div>
         <div className='pic'>
           <img className='main-pic' src="/images/image-mockups.png" alt="mockup" />
@@ -117,19 +117,19 @@ function App() {
         </div>
         <div className='info'>
           <div>
-            <h4>About Us</h4>
-            <h4>Contact</h4>
-            <h4>Blog</h4>
+            <h4 className='solo'>About Us</h4>
+            <h4 className='solo'>Contact</h4>
+            <h4 className='solo'>Blog</h4>
           </div>
           <div>
-            <h4>Careers</h4>
-            <h4>Support</h4>
-            <h4>Privacy Policy</h4>
+            <h4 className='solo'>Careers</h4>
+            <h4 className='solo'>Support</h4>
+            <h4 className='solo'>Privacy Policy</h4>
           </div>
         </div>
         <div className='footer-license'>
           <div className='stub-btn'>
-            <button className='unversal-btn'>Request invite</button>
+            <button className='universal-btn'>Request invite</button>
           </div>
           <h5 className='license'>© Easybank. All Rights Reserved</h5>
         </div>
