@@ -8,13 +8,13 @@ function App() {
       <nav className='nav'>
         <img src="/images/logo.svg" alt="logo" />
         <div className='links'>
-          <button className='link-btn'>Home</button>
-          <button className='link-btn'>About</button>
-          <button className='link-btn'>Contact</button>
-          <button className='link-btn'>Blog</button>
-          <button className='link-btn'>Careers</button>
+          <a href='/' className='link-btn'>Home</a>
+          <a href='/' className='link-btn'>About</a>
+          <a href='/' className='link-btn'>Contact</a>
+          <a href='/' className='link-btn'>Blog</a>
+          <a href='/' className='link-btn'>Careers</a>
         </div>
-        <button className='universal-btn'>Request invite</button>
+        <button className='universal-btn top-btn'>Request invite</button>
       </nav>
       <div className='header-left'>
         <div className='intro'>
@@ -106,7 +106,9 @@ function App() {
       </div>
       <footer className="footer">
         <div className='footer-icons'>
-          <img className='footer-img' src="/images/easybanklogo.png" alt="logo" />
+          <div className='footerimage'>
+            <img className='footer-img' src="/images/easybanklogo.png" alt="logo" />
+          </div>
           <div className='icons'>
             <img className='iconimage' src="/images/icon-facebook.svg" alt="fb" />
             <img className='iconimage' src="/images/icon-youtube.svg" alt="yt" />
