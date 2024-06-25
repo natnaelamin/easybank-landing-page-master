@@ -24,9 +24,19 @@
   column-gap: 20px;
 }
 
+.hamburger{
+  display: none;
+}
+
 @media(max-width:768px){
-  .links{
+  .link-btn{
     display: none;
+  }
+
+  .hamburger{
+    display: block;
+    border-width: 0px;
+    background-color: white;
   }
 }
 
@@ -42,8 +52,8 @@
 .link-btn:hover{
   text-decoration-line: underline;
   text-underline-offset: 10px;
-  text-decoration-color: green;
-  text-decoration-thickness: 4px;
+  text-decoration-color: rgb(106, 236, 106);
+  text-decoration-thickness: 2px;
   color: rgb(51 65 85);
 }
 
@@ -304,6 +314,9 @@ line-height: 1.75rem;
 
   .info{
     flex-direction: column;
+    row-gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .footer-icons{
@@ -348,11 +361,20 @@ height: 20px;
   display: flex;
   justify-content: space-between;
   color: rgb(148 163 184);
+}
 
+.info-1{
+  display: grid;
+  row-gap: 20px;
+}
+
+.solo{
+  text-decoration-line: none;
+  color: rgb(100 116 139);
 }
 
 .solo:hover{
-  color: rgb(56 189 248);
+  color: rgb(241 245 249);
 }
 
 .footer-license{
@@ -369,5 +391,54 @@ height: 20px;
 
 .license{
   color: rgb(100 116 139);
+}
+
+.modal{
+  position:fixed;
+  z-index: 1;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 30px;
+}
+
+.modal-body{
+  background-color: #fff;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 0.5rem;
+  display: grid;
+  row-gap: 20px;
+}
+
+.modal-option{
+  color: rgb(51 65 85);
+  font-size: 1.25rem; 
+  line-height: 1.75rem;
+  font-weight: 500;
+  text-decoration-line: none;
+}
+
+.modal-option:hover{
+  text-decoration-line: underline;
+  text-underline-offset: 5px;
+  text-decoration-color: rgb(106, 236, 106);
+  text-decoration-thickness: 2px;
+  color: rgb(60, 113, 187);
 }
 
